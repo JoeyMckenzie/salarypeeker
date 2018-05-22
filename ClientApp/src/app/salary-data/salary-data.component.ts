@@ -12,11 +12,11 @@ export class SalaryDataComponent implements OnInit {
   constructor(public salaryDataService: SalaryDataService) { }
 
   // Display properties
-  public salaries: SalaryRecord[];
+  public salaries: any;
   public useSpinner: boolean = false;
   public resultCount: number;
   public paging: any = {};
-  public pagedRecords: SalaryRecord[];
+  public pagedRecords: any;
   public agency: string = 'All';
   public salaryRange: string;
   public lowerLimit: number;
