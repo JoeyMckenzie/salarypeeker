@@ -68,7 +68,6 @@ namespace SalaryPeeker
                 // see https://go.microsoft.com/fwlink/?linkid=864501
 
                 spa.Options.SourcePath = "ClientApp";
-                spa.Options.DefaultPage = "/en/index.html";
 
                 if (env.IsDevelopment())
                 {

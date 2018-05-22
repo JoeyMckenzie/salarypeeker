@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/SalaryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SalaryController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,21 +102,21 @@
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="710">
-              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
-                <marker date="1527011146224" expanded="false" signature="6:373" ph="..." />
-                <marker date="1527011146224" expanded="true" signature="397:2728" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="424:2726" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="483:546" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="769:1283" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="1184:1271" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="1471:2720" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="1518:1595" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="1612:1722" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="1867:2226" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="2259:2708" ph="{...}" />
-                <marker date="1527011146224" expanded="true" signature="2290:2436" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
-                <marker date="1527011146224" expanded="true" signature="2593:2694" ph="{...}" />
+                <marker date="1527012940314" expanded="false" signature="6:373" ph="..." />
+                <marker date="1527012940314" expanded="true" signature="397:2668" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="424:2666" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="483:546" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="769:1283" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="1184:1271" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="1471:2660" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="1518:1595" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="1612:1722" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="1867:2226" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="2259:2648" ph="{...}" />
+                <marker date="1527012940314" expanded="true" signature="2290:2436" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
+                <marker date="1527012940314" expanded="true" signature="2533:2634" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -384,12 +381,12 @@
       <workItem from="1526428014644" duration="48146000" />
       <workItem from="1526673434828" duration="5994000" />
       <workItem from="1526846464469" duration="33554000" />
-      <workItem from="1526955733343" duration="5958000" />
+      <workItem from="1526955733343" duration="6364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93652000" />
+    <option name="totallyTimeSpent" value="94058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,19 +553,19 @@
         <state relative-caret-position="390">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
-            <marker date="1527011146224" expanded="false" signature="6:373" ph="..." />
-            <marker date="1527011146224" expanded="true" signature="397:2728" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="424:2726" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="483:546" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="769:1283" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1184:1271" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1471:2720" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1518:1595" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1612:1722" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1867:2226" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="2259:2708" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="2290:2436" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
-            <marker date="1527011146224" expanded="true" signature="2593:2694" ph="{...}" />
+            <marker date="1527012940314" expanded="false" signature="6:373" ph="..." />
+            <marker date="1527012940314" expanded="true" signature="397:2668" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="424:2666" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="483:546" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="769:1283" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1184:1271" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1471:2660" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1518:1595" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1612:1722" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1867:2226" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="2259:2648" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="2290:2436" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
+            <marker date="1527012940314" expanded="true" signature="2533:2634" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -854,21 +851,21 @@
     <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
-          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
-            <marker date="1527011146224" expanded="false" signature="6:373" ph="..." />
-            <marker date="1527011146224" expanded="true" signature="397:2728" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="424:2726" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="483:546" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="769:1283" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1184:1271" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1471:2720" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1518:1595" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1612:1722" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="1867:2226" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="2259:2708" ph="{...}" />
-            <marker date="1527011146224" expanded="true" signature="2290:2436" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
-            <marker date="1527011146224" expanded="true" signature="2593:2694" ph="{...}" />
+            <marker date="1527012940314" expanded="false" signature="6:373" ph="..." />
+            <marker date="1527012940314" expanded="true" signature="397:2668" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="424:2666" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="483:546" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="769:1283" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1184:1271" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1471:2660" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1518:1595" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1612:1722" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="1867:2226" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="2259:2648" ph="{...}" />
+            <marker date="1527012940314" expanded="true" signature="2290:2436" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
+            <marker date="1527012940314" expanded="true" signature="2533:2634" ph="{...}" />
           </folding>
         </state>
       </provider>
