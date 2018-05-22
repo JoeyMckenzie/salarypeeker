@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
+import {getBaseUrl} from "../../main";
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -13,11 +14,11 @@ export class SalaryDataService {
 
 
   getAllSalaryData() {
-    return this.http.get('api/salary', httpOptions);
+    return this.http.get(getBaseUrl() + 'api/salary', httpOptions);
   }
 
   getFilteredSalaryData(agency: string,  lowerLimit?: number, upperLimit?: number,  year?: string) {
-    let route = 'api/salary/' + agency;
+    let route = getBaseUrl() + 'api/salary/' + agency;
 
     if (lowerLimit !== null)
       route = route + '/' + lowerLimit.toString() + '/' + upperLimit.toString();
@@ -31,11 +32,11 @@ export class SalaryDataService {
   }
 
   getSalaryDataByEmployeeName(employee: string) {
-    return this.http.get('api/salary/employee/' + encodeURI(employee), httpOptions);
+    return this.http.get(getBaseUrl() + 'api/salary/employee/' + encodeURI(employee), httpOptions);
   }
 
   getSalaryDataByJobTitle(title: string) {
-    return this.http.get('api/salary/job/' + encodeURI(title), httpOptions);
+    return this.http.get(getBaseUrl() + 'api/salary/job/' + encodeURI(title), httpOptions);
   }
 }
 
