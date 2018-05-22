@@ -1,0 +1,163 @@
+<div>
+  <h1>Public Salary Data</h1>
+  <hr/>
+  <div class="row">
+    <div class="col-md-6">
+
+      <!-- Filters for agency, year, total pay -->
+      <h4>Filter by Agency, Year, and Total Pay</h4>
+      <div class="form-group">
+        <label for="payRange"><strong>Total Pay + Benefits</strong></label>
+        <select autocomplete="off" [(ngModel)]="salaryRange" (change)="getFilteredSalaries(agency, salaryRange, year)" id="payRange" class="custom-select">
+          <option disabled selected>Search by salary range</option>
+          <option id="allSalaries" value="All">All Salaries</option>
+          <option value="0-49">0 - $49,999</option>
+          <option value="50-99">$50,000 - $99,999</option>
+          <option value="100-199">$100,000 - $199,999</option>
+          <option value="200+">$200,000 and greater</option>
+        </select>
+      </div>
+
+      <!-- Filter for fiscal year -->
+      <div class="form-group">
+        <label for="fiscalYear"><strong>Year</strong></label>
+        <select autocomplete="off" [(ngModel)]="year" (change)="getFilteredSalaries(agency, salaryRange, year)" id="fiscalYear" class="custom-select">
+          <option disabled selected>Search a fiscal year</option>
+          <option value="All">All fiscal years</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+        </select>
+      </div>
+
+      <!-- Agency toggle -->
+      <div class="form-group">
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label for="allAgencies"  (click)="setAgency('All')" class="btn btn-outline-primary active">
+            <input id="allAgencies" autocomplete="off" checked="checked" type="radio" value="All">All
+          </label>
+          <label for="cityOfRedding" (click)="setAgency('Redding')" class="btn btn-outline-primary">
+            <input name="agency" id="cityOfRedding"  autocomplete="off" type="radio" value="cityOfRedding">City of Redding
+          </label>
+          <label for="shastaCounty" (click)="setAgency('Shasta County')" class="btn btn-outline-primary">
+            <input name="agency" id="shastaCounty" autocomplete="off" type="radio" value="shastaCounty">Shasta County
+          </label>
+        </div>
+      </div>
+      <div class="btn-group">
+        <input type="button" class="btn btn-info" (click)="clearSort()" value="Clear Sorted Data"/>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+
+      <!-- Alert users if null -->
+      <h4>Search by Employee and Job Title</h4>
+      <div *ngIf="alertUser" class="alert alert-dismissible alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4 class="alert-heading">Oops!</h4>
+        <p class="mb-0">Make sure to enter a name, or job title, before hitting the seach button.</p>
+      </div>
+
+      <!-- Search by employee -->
+      <label for="employeeName"><strong>Employee</strong></label>
+      <div class="input-group">
+        <input id="employeeName" [(ngModel)]="employeeName" type="text" class="form-control" (keyup.enter)="getSalaryByEmployee(employeeName)" placeholder="Search by employee">
+        <span class="input-group-btn">
+          <input type="button" class="btn btn-primary" (click)="getSalaryByEmployee(employeeName)" value="Seach">
+        </span>
+      </div>
+      <br>
+
+      <!-- Search by job title -->
+      <label for="jobTitle"><strong>Job Title</strong></label>
+      <div class="input-group">
+        <input id="jobTitle" [(ngModel)]="jobTitle" type="text" class="form-control" (keyup.enter)="getSalaryByJob(jobTitle)" placeholder="Search by job title">
+        <span class="input-group-btn">
+          <input type="button" class="btn btn-primary" (click)="getSalaryByJob(jobTitle)" value="Seach">
+        </span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Initial loading spinner -->
+<div *ngIf="useSpinner && !salaries" class="text-center">
+  <i id="loading" class="fas fa-spinner fa-5x"></i>
+  <br/>
+  <br/>
+  <h4>Loading salary data...</h4>
+</div>
+
+<!-- Display if no results -->
+<div *ngIf="resultCount === 0" class="text-center">
+  <br/>
+  <br/>
+  <h4>No results</h4>
+</div>
+
+
+<!-- Pisplay results -->
+<div *ngIf="salaries && resultCount !== 0">
+  <chart [type]="type" [data]="data" [options]="options"></chart>
+
+  <!-- Pagination -->
+  <h5 class="text-center">Number of results: {{ resultCount }}</h5>
+  <div class="d-flex">
+    <ul *ngIf="paging.pages && paging.pages.length" class="pagination mx-auto">
+      <li class="page-item" [ngClass]="{disabled:paging.currentPage === 1}">
+        <a class="page-link" (click)="setPage(1)"><i class="fas fa-angle-double-left"></i></a>
+      </li>
+      <li class="page-item" [ngClass]="{disabled:paging.currentPage === 1}">
+        <a class="page-link" (click)="setPage(paging.currentPage - 1)"><i class="fas fa-angle-left"></i></a>
+      </li>
+      <li *ngFor="let page of paging.pages" class="page-item" [ngClass]="{active:paging.currentPage === page}">
+        <a class="page-link" (click)="setPage(page)">{{ page }}</a>
+      </li>
+      <li class="page-item" [ngClass]="{disabled:paging.currentPage === paging.totalPages}">
+        <a class="page-link" (click)="setPage(paging.currentPage + 1)"><i class="fas fa-angle-right"></i></a>
+      </li>
+      <li class="page-item" [ngClass]="{disabled:paging.currentPage === paging.totalPages}">
+        <a class="page-link" (click)="setPage(paging.totalPages)"><i class="fas fa-angle-double-right"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div class="table-responsive-lg">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col" (click)="setSortBy('employeeName')">Employee Name <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'employeeName' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'employeeName' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('jobTitle')">Job Title <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'jobTitle' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'jobTitle' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('agency')">Agency <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'agency' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'agency' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('year')">Fiscal Year <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'year' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'year' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('basePay')">Base Pay <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'basePay' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'basePay' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('overtimePay')">Overtime Pay <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'overtimePay' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'overtimePay' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('otherPay')">Other Pay <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'otherPay' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'otherPay' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('benefits')">Benefits <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'benefits' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'benefits' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('totalPay')">Total Pay <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'totalPay' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'totalPay' && !orderByAscending" class="fas fa-sort-up"></i></th>
+          <th scope="col" (click)="setSortBy('totalPayBenefits')">Total Pay + Benefits <i *ngIf="!sortBy" class="fas fa-sort"></i> <i *ngIf="sortBy == 'totalPayBenefits' && orderByAscending" class="fas fa-sort-down"></i><i *ngIf="sortBy == 'totalPayBenefits' && !orderByAscending" class="fas fa-sort-up"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let record of pagedRecords">
+        <td>{{ record.employeeName }}</td>
+        <td>{{ record.jobTitle }}</td>
+        <td>{{ record.agency }}</td>
+        <td>{{ record.year }}</td>
+        <td>{{ record.basePay | currency }}</td>
+        <td>{{ record.overtimePay | currency }}</td>
+        <td>{{ record.otherPay | currency }}</td>
+        <td>{{ record.benefits | currency }}</td>
+        <td>{{ record.totalPay | currency }}</td>
+        <td>{{ record.totalPayBenefits | currency }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

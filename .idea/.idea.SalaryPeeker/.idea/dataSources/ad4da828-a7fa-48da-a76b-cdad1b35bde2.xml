@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SalaryPeeker.db">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.8">
+    <root id="1">
+      <ServerVersion>3.20.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="all-data"/>
+    <table id="7" parent="2" name="all-data-backup"/>
+    <table id="8" parent="2" name="redding-2015"/>
+    <table id="9" parent="2" name="redding-2016"/>
+    <table id="10" parent="2" name="redding-2017"/>
+    <table id="11" parent="2" name="shasta-county-2015"/>
+    <table id="12" parent="2" name="shasta-county-2016"/>
+    <table id="13" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <column id="14" parent="6" name="Id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="15" parent="6" name="Employee Name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="16" parent="6" name="Job Title">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="17" parent="6" name="Base Pay">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="18" parent="6" name="Overtime Pay">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="19" parent="6" name="Other Pay">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="20" parent="6" name="Benefits">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="21" parent="6" name="Total Pay">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="22" parent="6" name="Total Pay &amp; Benefits">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="23" parent="6" name="Year">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="24" parent="6" name="Notes">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="25" parent="6" name="Agency">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="26" parent="6" name="Status">
+      <Position>13</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <index id="27" parent="6" name="all-data_Id_uindex">
+      <ColNames>Id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="28" parent="6">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>all-data_Id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="29" parent="7" name="Id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="30" parent="7" name="Employee Name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="31" parent="7" name="Job Title">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="32" parent="7" name="Base Pay">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="33" parent="7" name="Overtime Pay">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="34" parent="7" name="Other Pay">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="35" parent="7" name="Benefits">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="36" parent="7" name="Total Pay">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="37" parent="7" name="Total Pay &amp; Benefits">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="38" parent="7" name="Year">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="39" parent="7" name="Notes">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="40" parent="7" name="Agency">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="41" parent="7" name="Status">
+      <Position>13</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <index id="42" parent="7" name="all-data-backup_Id_uindex">
+      <ColNames>Id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="43" parent="7">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>all-data-backup_Id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="44" parent="8" name="Id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="45" parent="8" name="Employee Name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="46" parent="8" name="Job Title">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="47" parent="8" name="Base Pay">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="48" parent="8" name="Overtime Pay">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="49" parent="8" name="Other Pay">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="50" parent="8" name="Benefits">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="51" parent="8" name="Total Pay">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="52" parent="8" name="Total Pay &amp; Benefits">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="53" parent="8" name="Year">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="54" parent="8" name="Notes">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="55" parent="8" name="Agency">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="56" parent="8" name="Status">
+      <Position>13</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <index id="57" parent="8" name="redding-2015_Id_uindex">
+      <ColNames>Id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="8">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>redding-2015_Id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="59" parent="9" name="Id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="60" parent="9" name="Employee Name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="61" parent="9" name="Job Title">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="62" parent="9" name="Base Pay">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="63" parent="9" name="Overtime Pay">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="64" parent="9" name="Other Pay">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="65" parent="9" name="Benefits">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="66" parent="9" name="Total Pay">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="67" parent="9" name="Total Pay &amp; Benefits">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="68" parent="9" name="Year">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="69" parent="9" name="Notes">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="70" parent="9" name="Agency">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="71" parent="9" name="Status">
+      <Position>13</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <index id="72" parent="9" name="redding-2016_Id_uindex">
+      <ColNames>Id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="9">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>redding-2016_Id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="74" parent="10" name="Id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="75" parent="10" name="Employee Name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="76" parent="10" name="Job Title">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="77" parent="10" name="Base Pay">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="78" parent="10" name="Overtime Pay">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="79" parent="10" name="Other Pay">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="80" parent="10" name="Benefits">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="81" parent="10" name="Total Pay">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="82" parent="10" name="Total Pay &amp; Benefits">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="83" parent="10" name="Year">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="84" parent="10" name="Notes">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="85" parent="10" name="Agency">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="86" parent="10" name="Status">
+      <Position>13</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <index id="87" parent="10" name="redding-2017_Id_uindex">
+      <ColNames>Id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="10">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>redding-2017_Id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="89" parent="11" name="Id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="90" parent="11" name="Employee Name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="91" parent="11" name="Job Title">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="92" parent="11" name="Base Pay">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="93" parent="11" name="Overtime Pay">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="94" parent="11" name="Other Pay">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="95" parent="11" name="Benefits">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="96" parent="11" name="Total Pay">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="97" parent="11" name="Total Pay &amp; Benefits">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="98" parent="11" name="Year">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="99" parent="11" name="Notes">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="100" parent="11" name="Agency">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="101" parent="11" name="Status">
+      <Position>13</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <index id="102" parent="11" name="shasta-county-2015_Id_uindex">
+      <ColNames>Id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="103" parent="11">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>shasta-county-2015_Id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="104" parent="12" name="Id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="105" parent="12" name="Employee Name">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="106" parent="12" name="Job Title">
+      <Position>3</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="107" parent="12" name="Base Pay">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="108" parent="12" name="Overtime Pay">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="109" parent="12" name="Other Pay">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="110" parent="12" name="Benefits">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="111" parent="12" name="Total Pay">
+      <Position>8</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="112" parent="12" name="Total Pay &amp; Benefits">
+      <Position>9</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="113" parent="12" name="Year">
+      <Position>10</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="114" parent="12" name="Notes">
+      <Position>11</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="115" parent="12" name="Agency">
+      <Position>12</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <column id="116" parent="12" name="Status">
+      <Position>13</Position>
+      <DataType>TEXT|0s</DataType>
+    </column>
+    <index id="117" parent="12" name="shasta-county-2016_Id_uindex">
+      <ColNames>Id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="12">
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>shasta-county-2016_Id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="119" parent="13" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="120" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="121" parent="13" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="122" parent="13" name="rootpage">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="123" parent="13" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>

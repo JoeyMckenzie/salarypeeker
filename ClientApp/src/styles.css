@@ -1,0 +1,38 @@
+/* Rotate loading image */
+#loading {
+  transition-property: transform;
+  transition-duration: 1s;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.passion-one {
+  font-family: 'Patua One', cursive;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+
+/* Link hover transition */
+#personal-link {
+  -webkit-transition-duration: 200ms;
+  -moz-transition-duration: 200ms;
+  -ms-transition-duration: 200ms;
+  -o-transition-duration: 200ms;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+#personal-link:hover {
+  transition-duration: 200ms;
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+}

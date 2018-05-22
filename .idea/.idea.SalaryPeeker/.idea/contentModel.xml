@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p=".angular-cli.json" t="Include" />
+        <e p=".editorconfig" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="e2e" t="Include">
+          <e p="app.e2e-spec.ts" t="Include" />
+          <e p="app.po.ts" t="Include" />
+          <e p="tsconfig.e2e.json" t="Include" />
+        </e>
+        <e p="karma.conf.js" t="Include" />
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="protractor.conf.js" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="app" t="Include">
+            <e p="app.component.css" t="Include" />
+            <e p="app.component.html" t="Include" />
+            <e p="app.component.ts" t="Include" />
+            <e p="app.module.ts" t="Include" />
+            <e p="home" t="Include">
+              <e p="home.component.html" t="Include" />
+              <e p="home.component.ts" t="Include" />
+            </e>
+            <e p="nav-menu" t="Include">
+              <e p="nav-menu.component.css" t="Include" />
+              <e p="nav-menu.component.html" t="Include" />
+              <e p="nav-menu.component.ts" t="Include" />
+            </e>
+            <e p="salary-data" t="Include">
+              <e p="salary-data.component.css" t="Include" />
+              <e p="salary-data.component.html" t="Include" />
+              <e p="salary-data.component.ts" t="Include" />
+            </e>
+            <e p="salary-data.ts" t="Include" />
+            <e p="services" t="Include">
+              <e p="index.ts" t="Include" />
+              <e p="paging.service.ts" t="Include" />
+              <e p="salary-data.service.ts" t="Include" />
+            </e>
+          </e>
+          <e p="assets" t="Include">
+            <e p=".gitkeep" t="Include" />
+            <e p="css" t="Include">
+              <e p="bootstrap-litera.min.css" t="Include" />
+              <e p="bootstrap-lumen.min.css" t="Include" />
+              <e p="bootstrap-materia.min.css" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="Chart.bundle.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="environments" t="Include">
+            <e p="environment.prod.ts" t="Include" />
+            <e p="environment.ts" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="main.ts" t="Include" />
+          <e p="polyfills.ts" t="Include" />
+          <e p="styles.css" t="Include" />
+          <e p="test.ts" t="Include" />
+          <e p="tsconfig.app.json" t="Include" />
+          <e p="tsconfig.spec.json" t="Include" />
+          <e p="typings.d.ts" t="Include" />
+        </e>
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="SalaryController.cs" t="Include" />
+        <e p="SampleDataController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="SalaryPeekerDbContext.cs" t="Include" />
+      </e>
+      <e p="global.json" t="Include" />
+      <e p="models" t="Include">
+        <e p="SalaryPeekerContext.cs" t="Include" />
+        <e p="SalaryRecord.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="SalaryPeeker.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="Error.cshtml" t="Include" />
+        <e p="Error.cshtml.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="SalaryPeeker.csproj" t="IncludeRecursive" />
+      <e p="SalaryPeeker.db" t="Include" />
+      <e p="SalaryPeeker.sln" t="IncludeFlat" />
+      <e p="Startup.cs" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="favicon.ico" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_SalaryPeeker.-1731003863.00" t="ExcludeRecursive" />
+    <e p="/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.aspnetcore.identity.ui/2.1.0-preview2-final/contentFiles/any/netstandard2.0/THIRD-PARTY-NOTICES" t="Include" />
+  </component>
+</project>
