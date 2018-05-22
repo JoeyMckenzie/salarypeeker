@@ -57,9 +57,9 @@ namespace SalaryPeeker
                 routes.MapRoute(
                     name: "default",
                     template: "{controller}/{action=Index}/{id?}");
-                routes.MapRoute(
-                    name: "salary-data",
-                    template: "api/salary-data/{agency=All}/{lowerLimit:int=0}/{upperLimit:int=1000000}/{year:int?}");
+//                routes.MapRoute(
+//                    name: "salary-data",
+//                    template: "api/salary-data/{agency=All}/{lowerLimit:int=0}/{upperLimit:int=1000000}/{year:int?}");
             });
 
             app.UseSpa(spa =>

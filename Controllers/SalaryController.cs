@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ActionConstraints;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
 using SalaryPeeker.Data;
 using SalaryPeeker.Models;
 
 namespace SalaryPeeker.Controllers
 {
-    [Route("api/salary-data")]
+    [Route("api/[controller]")]
     public class SalaryController : Controller
     {
         private readonly SalaryPeekerContext _context;
@@ -31,7 +30,7 @@ namespace SalaryPeeker.Controllers
             var model = await _context.SalaryRecords.ToListAsync();
             
             
-            return Json(model);
+            return Ok(model);
         }
 
         //
@@ -69,7 +68,7 @@ namespace SalaryPeeker.Controllers
                     where m.Year == year
                     select m;
 
-            return Json(model.ToList());
+            return Ok(model.ToList());
         }
 
         
@@ -80,7 +79,7 @@ namespace SalaryPeeker.Controllers
         {
             var model = _context.SalaryRecords.Where(m => m.EmployeeName.ToLower().Contains(employeeName.ToLower()));
 
-            return Json(model.ToList());
+            return Ok(model.ToList());
         }
         
         //
@@ -90,7 +89,7 @@ namespace SalaryPeeker.Controllers
         {
             var model = _context.SalaryRecords.Where(m => m.JobTitle.ToLower().Contains(title.ToLower()));
 
-            return Json(model.ToList());
+            return Ok(model.ToList());
         }
         
     }
