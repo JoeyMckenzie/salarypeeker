@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="salary-data.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4341">
+            <state relative-caret-position="4710">
               <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
+            <state relative-caret-position="825">
               <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
               <folding>
                 <marker date="1527017291410" expanded="false" signature="6:373" ph="..." />
@@ -105,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -122,6 +122,15 @@
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -221,7 +230,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Data/SalaryPeekerDbContext.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Models/AllData.cs" />
         <option value="$PROJECT_DIR$/SalaryPeekerContext.cs" />
         <option value="$PROJECT_DIR$/Models/SalaryRecord.cs" />
@@ -253,6 +261,7 @@
         <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/jsLibraryMappings.xml" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
@@ -360,6 +369,7 @@
           </expand>
           <select />
         </subPane>
+        <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
     </panes>
@@ -414,12 +424,12 @@
       <workItem from="1526428014644" duration="48146000" />
       <workItem from="1526673434828" duration="5994000" />
       <workItem from="1526846464469" duration="33554000" />
-      <workItem from="1526955733343" duration="9830000" />
+      <workItem from="1526955733343" duration="10582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97524000" />
+    <option name="totallyTimeSpent" value="98276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,13 +657,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/redding-data/redding-data.component.html" />
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/redding-data/redding-data.component.ts" />
-    <entry file="file://$PROJECT_DIR$/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/shasta-county/shasta-county.component.ts" />
     <entry file="file://$PROJECT_DIR$/ClientApp/node_modules/@angular/common/common.metadata.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -799,36 +802,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/ClientApp/.angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/jsLibraryMappings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <marker date="1527017291410" expanded="false" signature="6:373" ph="..." />
-            <marker date="1527017291410" expanded="true" signature="397:2676" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="424:2674" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="483:546" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="769:1283" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="1184:1271" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="1471:2668" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="1518:1595" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="1612:1722" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="1869:2234" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="2022:2220" ph="/* routes.MapRoute( ... */" />
-            <marker date="1527017291410" expanded="true" signature="2267:2656" ph="{...}" />
-            <marker date="1527017291410" expanded="true" signature="2298:2444" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
-            <marker date="1527017291410" expanded="true" signature="2541:2642" ph="{...}" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts">
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="8" selection-start-column="40" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -855,23 +860,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4341">
+        <state relative-caret-position="4710">
           <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -879,24 +870,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/jsLibraryMappings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="435">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
+    <entry file="file://$PROJECT_DIR$/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" selection-start-line="8" selection-start-column="40" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <marker date="1527017291410" expanded="false" signature="6:373" ph="..." />
+            <marker date="1527017291410" expanded="true" signature="397:2676" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="424:2674" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="483:546" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="769:1283" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="1184:1271" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="1471:2668" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="1518:1595" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="1612:1722" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="1869:2234" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="2022:2220" ph="/* routes.MapRoute( ... */" />
+            <marker date="1527017291410" expanded="true" signature="2267:2656" ph="{...}" />
+            <marker date="1527017291410" expanded="true" signature="2298:2444" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
+            <marker date="1527017291410" expanded="true" signature="2541:2642" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

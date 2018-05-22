@@ -24,7 +24,7 @@ namespace SalaryPeeker
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<SalaryPeekerContext>(options => 
-                    options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                    options.UseSqlite("Filename=SalaryPeeker.db"));
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
