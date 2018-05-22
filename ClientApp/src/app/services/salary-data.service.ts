@@ -3,13 +3,19 @@ import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {getBaseUrl} from "../../main";
 import {Observable} from "rxjs/Observable";
 
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+};
+
 @Injectable()
 export class SalaryDataService {
 
   constructor(private http: HttpClient) { }
 
+
+
   getAllSalaryData() {
-    return this.http.get(getBaseUrl() + 'api/salary-data');
+    return this.http.get(getBaseUrl() + 'api/salary-data', httpOptions);
   }
 
   getFilteredSalaryData(agency: string,  lowerLimit?: number, upperLimit?: number,  year?: string) {
