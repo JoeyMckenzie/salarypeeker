@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {getBaseUrl} from "../../main";
 import {Observable} from "rxjs/Observable";
 
@@ -9,7 +9,7 @@ export class SalaryDataService {
   constructor(private http: HttpClient) { }
 
   getAllSalaryData(): Observable<SalaryRecord[]> {
-    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data', {responseType: 'json'});
+    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data', {headers: new HttpHeaders().set('Content-Type','application/json'), responseType: 'json'});
   }
 
   getFilteredSalaryData(agency: string,  lowerLimit?: number, upperLimit?: number,  year?: string) {
@@ -23,15 +23,15 @@ export class SalaryDataService {
 
     // console.log(route);
 
-    return this.http.get<SalaryRecord[]>(route, {responseType: 'json'});
+    return this.http.get<SalaryRecord[]>(route, {headers: new HttpHeaders().set('Content-Type','application/json'), responseType: 'json'});
   }
 
   getSalaryDataByEmployeeName(employee: string) {
-    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/employee/' + encodeURI(employee), {responseType: 'json'});
+    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/employee/' + encodeURI(employee), {headers: new HttpHeaders().set('Content-Type','application/json'), responseType: 'json'});
   }
 
   getSalaryDataByJobTitle(title: string) {
-    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/job/' + encodeURI(title), {responseType: 'json'});
+    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/job/' + encodeURI(title), {headers: new HttpHeaders().set('Content-Type','application/json'), responseType: 'json'});
   }
 }
 
