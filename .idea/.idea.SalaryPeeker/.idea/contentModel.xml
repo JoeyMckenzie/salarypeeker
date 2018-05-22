@@ -10,25 +10,6 @@
         <e p=".angular-cli.json" t="Include" />
         <e p=".editorconfig" t="Include" />
         <e p=".gitignore" t="Include" />
-        <e p="dist" t="Include">
-          <e p="3rdpartylicenses.txt" t="Include" />
-          <e p="assets" t="Include">
-            <e p="css" t="Include">
-              <e p="bootstrap-litera.min.css" t="Include" />
-              <e p="bootstrap-lumen.min.css" t="Include" />
-              <e p="bootstrap-materia.min.css" t="Include" />
-            </e>
-            <e p="js" t="Include">
-              <e p="Chart.bundle.min.js" t="Include" />
-            </e>
-          </e>
-          <e p="index.html" t="Include" />
-          <e p="inline.318b50c57b4eba3d437b.bundle.js" t="Include" />
-          <e p="main.7ac238f7cafac9bae368.bundle.js" t="Include" />
-          <e p="polyfills.1457c99db4b6dba06e8d.bundle.js" t="Include" />
-          <e p="scripts.1c98378d2a6142df34d5.bundle.js" t="Include" />
-          <e p="styles.0902d8aa40019a55c9fd.bundle.css" t="Include" />
-        </e>
         <e p="e2e" t="Include">
           <e p="app.e2e-spec.ts" t="Include" />
           <e p="app.po.ts" t="Include" />

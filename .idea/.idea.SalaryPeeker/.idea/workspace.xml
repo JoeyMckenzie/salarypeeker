@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/services/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/SampleDataController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,13 +109,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/app/services/index.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="41" selection-end-line="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+              <folding>
+                <element signature="e#11#69#0" expanded="true" />
+                <element signature="e#374#421#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,7 +209,6 @@
         <option value="$PROJECT_DIR$/ClientApp/src/styles.css" />
         <option value="$PROJECT_DIR$/ClientApp/.angular-cli.json" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.css" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.html" />
@@ -212,6 +220,7 @@
         <option value="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/index.html" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/services/index.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -342,12 +351,12 @@
       <workItem from="1526428014644" duration="48146000" />
       <workItem from="1526673434828" duration="5994000" />
       <workItem from="1526846464469" duration="33554000" />
-      <workItem from="1526955733343" duration="1072000" />
+      <workItem from="1526955733343" duration="1506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88766000" />
+    <option name="totallyTimeSpent" value="89200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,6 +446,7 @@
           <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding>
             <element signature="e#11#69#0" expanded="true" />
+            <element signature="e#374#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -709,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#11#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -836,6 +836,17 @@
           <caret line="1" column="41" selection-end-line="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding>
+            <element signature="e#11#69#0" expanded="true" />
+            <element signature="e#374#421#0" expanded="true" />
           </folding>
         </state>
       </provider>

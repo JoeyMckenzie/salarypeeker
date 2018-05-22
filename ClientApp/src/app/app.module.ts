@@ -14,7 +14,8 @@ import { HomeComponent } from './home/home.component';
 import { SalaryDataComponent } from './salary-data/salary-data.component';
 
 // Services
-import { SalaryDataService, PagingService } from "./services";
+import { SalaryDataService } from "./services/salary-data.service";
+import {PagingService} from "./services/paging.service";
 
 @NgModule({
   declarations: [
