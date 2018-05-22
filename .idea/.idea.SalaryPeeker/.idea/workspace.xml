@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="" />
+    <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,15 +56,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salary-data.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SalaryPeeker.csproj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SalaryPeeker.csproj">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="global.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -160,15 +154,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
+      <file leaf-file-name="nav-menu.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,6 +209,9 @@
       <replace>totalPayBenefits</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Controllers/SalaryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/SalaryPeekerContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -247,10 +242,8 @@
         <option value="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/styles.css" />
         <option value="$PROJECT_DIR$/ClientApp/.angular-cli.json" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.css" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/index.html" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts" />
@@ -258,6 +251,8 @@
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/SalaryPeeker.csproj" />
         <option value="$PROJECT_DIR$/global.json" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" />
       </list>
     </option>
   </component>
@@ -275,6 +270,7 @@
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -403,12 +399,12 @@
       <updated>1526428009458</updated>
       <workItem from="1526428014644" duration="48146000" />
       <workItem from="1526673434828" duration="5994000" />
-      <workItem from="1526846464469" duration="32988000" />
+      <workItem from="1526846464469" duration="33554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87128000" />
+    <option name="totallyTimeSpent" value="87694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,7 +426,7 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="6" />
       <window_info anchor="bottom" id="Run" order="12" weight="0.32916668" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="NuGet" order="1" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="TypeScript" order="5" />
@@ -764,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -788,25 +774,6 @@
           <folding>
             <element signature="e#11#69#0" expanded="true" />
             <element signature="e#326#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -884,6 +851,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
