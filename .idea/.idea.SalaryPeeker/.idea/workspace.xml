@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,11 +122,12 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+            <state relative-caret-position="330">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="e#11#69#0" expanded="true" />
                 <element signature="e#374#421#0" expanded="true" />
+                <element signature="e#631#698#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -351,12 +350,12 @@
       <workItem from="1526428014644" duration="48146000" />
       <workItem from="1526673434828" duration="5994000" />
       <workItem from="1526846464469" duration="33554000" />
-      <workItem from="1526955733343" duration="1506000" />
+      <workItem from="1526955733343" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89200000" />
+    <option name="totallyTimeSpent" value="89421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +367,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="16" />
@@ -382,7 +381,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="NuGet" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="TypeScript" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22294022" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14696486" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32875606" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -447,6 +446,7 @@
           <folding>
             <element signature="e#11#69#0" expanded="true" />
             <element signature="e#374#421#0" expanded="true" />
+            <element signature="e#631#698#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -842,11 +842,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="e#11#69#0" expanded="true" />
             <element signature="e#374#421#0" expanded="true" />
+            <element signature="e#631#698#0" expanded="true" />
           </folding>
         </state>
       </provider>

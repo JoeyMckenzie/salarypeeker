@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SalaryDataService, SalaryRecord, PagingService } from "../services";
-declare var $:any;
+import { SalaryDataService, SalaryRecord } from "../services/salary-data.service";
+import { PagingService } from "../services/paging.service";
 
 @Component({
   selector: 'app-salary-data',
