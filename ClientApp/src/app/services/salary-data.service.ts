@@ -9,7 +9,7 @@ export class SalaryDataService {
   constructor(private http: HttpClient) { }
 
   getAllSalaryData(): Observable<SalaryRecord[]> {
-    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data');
+    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data', {responseType: 'json'});
   }
 
   getFilteredSalaryData(agency: string,  lowerLimit?: number, upperLimit?: number,  year?: string) {
@@ -23,15 +23,15 @@ export class SalaryDataService {
 
     // console.log(route);
 
-    return this.http.get<SalaryRecord[]>(route);
+    return this.http.get<SalaryRecord[]>(route, {responseType: 'json'});
   }
 
   getSalaryDataByEmployeeName(employee: string) {
-    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/employee/' + encodeURI(employee));
+    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/employee/' + encodeURI(employee), {responseType: 'json'});
   }
 
   getSalaryDataByJobTitle(title: string) {
-    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/job/' + encodeURI(title));
+    return this.http.get<SalaryRecord[]>(getBaseUrl() + 'api/salary-data/job/' + encodeURI(title), {responseType: 'json'});
   }
 }
 
