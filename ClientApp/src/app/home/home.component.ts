@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   // Disqus
-  pageUrl: string = window.location.href;
-  pageIdentifier: string = window.location.href;
+  // pageUrl: string = window.location.href;
+  // pageIdentifier: string = window.location.href;
 }

@@ -4,5 +4,6 @@
     <content url="file://$MODULE_DIR$/../.." />
     <content url="file:///usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.aspnetcore.identity.ui/2.1.0-preview2-final/contentFiles/any/netstandard2.0/THIRD-PARTY-NOTICES" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="embed" level="application" />
   </component>
 </module>

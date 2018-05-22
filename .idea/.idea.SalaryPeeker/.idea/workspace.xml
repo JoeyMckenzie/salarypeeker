@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50f28fd-5f59-4253-a094-ccb0a8464c6c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalaryPeeker/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +51,7 @@
       <file leaf-file-name="salary-data.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="4341">
               <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -61,22 +64,22 @@
         <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
-                <marker date="1527010348260" expanded="false" signature="6:342" ph="..." />
-                <marker date="1527010348260" expanded="true" signature="378:2969" ph="{...}" />
-                <marker date="1527010348260" expanded="true" signature="458:2967" ph="{...}" />
-                <marker date="1527010348260" expanded="true" signature="581:633" ph="{...}" />
-                <marker date="1527010348260" expanded="true" signature="643:679" ph="/* GET: /api/salary-data ... */" />
-                <marker date="1527010348260" expanded="true" signature="754:900" ph="{...}" />
-                <marker date="1527010348260" expanded="true" signature="910:983" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
-                <marker date="1527010348260" expanded="true" signature="1241:2263" ph="{...}" />
-                <marker date="1527010348260" expanded="true" signature="1264:1348" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
-                <marker date="1527010348260" expanded="true" signature="1601:1877" ph="{...}" />
-                <marker date="1527010348260" expanded="true" signature="2282:2331" ph="/* GET /api/salary-data/employee/:name ... */" />
-                <marker date="1527010348260" expanded="true" signature="2447:2627" ph="{...}" />
-                <marker date="1527010348260" expanded="true" signature="2645:2690" ph="/* GET /api/salary-data/job/:title ... */" />
-                <marker date="1527010348260" expanded="true" signature="2783:2952" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="6:319" ph="..." />
+                <marker date="1527017525746" expanded="true" signature="355:2939" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="436:2937" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="559:611" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="621:657" ph="/* GET: /api/salary-data ... */" />
+                <marker date="1527017525746" expanded="true" signature="732:876" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="886:959" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+                <marker date="1527017525746" expanded="true" signature="1217:2237" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="1240:1324" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+                <marker date="1527017525746" expanded="true" signature="1577:1853" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="2256:2305" ph="/* GET /api/salary-data/employee/:name ... */" />
+                <marker date="1527017525746" expanded="true" signature="2421:2599" ph="{...}" />
+                <marker date="1527017525746" expanded="true" signature="2617:2662" ph="/* GET /api/salary-data/job/:title ... */" />
+                <marker date="1527017525746" expanded="true" signature="2755:2922" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,29 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="launchSettings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Properties/launchSettings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="61" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="672">
+              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
               <folding>
                 <marker date="1527017291410" expanded="false" signature="6:373" ph="..." />
                 <marker date="1527017291410" expanded="true" signature="397:2676" ph="{...}" />
@@ -139,11 +124,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="salary-data.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="435">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -168,20 +175,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClientApp/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientApp/src/app/services/index.ts">
+      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/.angular-cli.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -216,6 +220,8 @@
       <find>setyear</find>
       <find>setsalar</find>
       <find>Ok</find>
+      <find>-data</find>
+      <find>Json</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -229,6 +235,7 @@
       <replace>overtimePay</replace>
       <replace>totalPayBenefits</replace>
       <replace>Json</replace>
+      <replace>Ok</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -263,20 +270,20 @@
         <option value="$PROJECT_DIR$/ClientApp/src/styles.css" />
         <option value="$PROJECT_DIR$/ClientApp/.angular-cli.json" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.css" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.html" />
         <option value="$PROJECT_DIR$/SalaryPeeker.csproj" />
         <option value="$PROJECT_DIR$/global.json" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/services/index.ts" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/ClientApp/src/index.html" />
         <option value="$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts" />
-        <option value="$PROJECT_DIR$/Controllers/SalaryController.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts" />
+        <option value="$PROJECT_DIR$/Controllers/SalaryController.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/src/index.html" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -341,7 +348,33 @@
               <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="app" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="home" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="app" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="salary-data" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SalaryPeeker (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SalaryPeeker" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ClientApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="js" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -369,7 +402,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ClientApp/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RunDashboard">
@@ -413,12 +446,12 @@
       <workItem from="1526428014644" duration="48146000" />
       <workItem from="1526673434828" duration="5994000" />
       <workItem from="1526846464469" duration="33554000" />
-      <workItem from="1526955733343" duration="8645000" />
+      <workItem from="1526955733343" duration="9663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96339000" />
+    <option name="totallyTimeSpent" value="97357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,20 +583,20 @@
         <state relative-caret-position="1095">
           <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
           <folding>
-            <marker date="1527010348260" expanded="false" signature="6:342" ph="..." />
-            <marker date="1527010348260" expanded="true" signature="378:2969" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="458:2967" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="581:633" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="643:679" ph="/* GET: /api/salary-data ... */" />
-            <marker date="1527010348260" expanded="true" signature="754:900" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="910:983" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
-            <marker date="1527010348260" expanded="true" signature="1241:2263" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="1264:1348" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
-            <marker date="1527010348260" expanded="true" signature="1601:1877" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="2282:2331" ph="/* GET /api/salary-data/employee/:name ... */" />
-            <marker date="1527010348260" expanded="true" signature="2447:2627" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="2645:2690" ph="/* GET /api/salary-data/job/:title ... */" />
-            <marker date="1527010348260" expanded="true" signature="2783:2952" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="6:319" ph="..." />
+            <marker date="1527017525746" expanded="true" signature="355:2939" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="436:2937" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="559:611" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="621:657" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527017525746" expanded="true" signature="732:876" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="886:959" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527017525746" expanded="true" signature="1217:2237" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="1240:1324" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527017525746" expanded="true" signature="1577:1853" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="2256:2305" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527017525746" expanded="true" signature="2421:2599" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="2617:2662" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527017525746" expanded="true" signature="2755:2922" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -722,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -736,29 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,13 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClientApp/node_modules/@angular/common/http/src/client.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -811,49 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <marker date="1527010348260" expanded="false" signature="6:342" ph="..." />
-            <marker date="1527010348260" expanded="true" signature="378:2969" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="458:2967" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="581:633" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="643:679" ph="/* GET: /api/salary-data ... */" />
-            <marker date="1527010348260" expanded="true" signature="754:900" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="910:983" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
-            <marker date="1527010348260" expanded="true" signature="1241:2263" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="1264:1348" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
-            <marker date="1527010348260" expanded="true" signature="1601:1877" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="2282:2331" ph="/* GET /api/salary-data/employee/:name ... */" />
-            <marker date="1527010348260" expanded="true" signature="2447:2627" ph="{...}" />
-            <marker date="1527010348260" expanded="true" signature="2645:2690" ph="/* GET /api/salary-data/job/:title ... */" />
-            <marker date="1527010348260" expanded="true" signature="2783:2952" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="61" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="672">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
           <folding>
             <marker date="1527017291410" expanded="false" signature="6:373" ph="..." />
             <marker date="1527017291410" expanded="true" signature="397:2676" ph="{...}" />
@@ -900,6 +857,81 @@
             <marker date="1527017291410" expanded="true" signature="2267:2656" ph="{...}" />
             <marker date="1527017291410" expanded="true" signature="2298:2444" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
             <marker date="1527017291410" expanded="true" signature="2541:2642" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/services/salary-data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/SalaryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1527017525746" expanded="true" signature="6:319" ph="..." />
+            <marker date="1527017525746" expanded="true" signature="355:2939" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="436:2937" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="559:611" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="621:657" ph="/* GET: /api/salary-data ... */" />
+            <marker date="1527017525746" expanded="true" signature="732:876" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="886:959" ph="/* GET: /api/salary-data/:agency/:lowerLimit/:upperLimit/:year ... */" />
+            <marker date="1527017525746" expanded="true" signature="1217:2237" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="1240:1324" ph="/* Salary range will always come in a pair, so just check lower limit ... */" />
+            <marker date="1527017525746" expanded="true" signature="1577:1853" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="2256:2305" ph="/* GET /api/salary-data/employee/:name ... */" />
+            <marker date="1527017525746" expanded="true" signature="2421:2599" ph="{...}" />
+            <marker date="1527017525746" expanded="true" signature="2617:2662" ph="/* GET /api/salary-data/job/:title ... */" />
+            <marker date="1527017525746" expanded="true" signature="2755:2922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/salary-data/salary-data.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4341">
+          <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
