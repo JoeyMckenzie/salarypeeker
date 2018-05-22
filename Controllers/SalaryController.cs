@@ -30,7 +30,8 @@ namespace SalaryPeeker.Controllers
         {
             var model = await _context.SalaryRecords.ToListAsync();
             
-            return Ok(model);
+            
+            return Json(model);
         }
 
         //
@@ -68,7 +69,7 @@ namespace SalaryPeeker.Controllers
                     where m.Year == year
                     select m;
 
-            return Ok(model.ToList());
+            return Json(model.ToList());
         }
 
         
@@ -79,7 +80,7 @@ namespace SalaryPeeker.Controllers
         {
             var model = _context.SalaryRecords.Where(m => m.EmployeeName.ToLower().Contains(employeeName.ToLower()));
 
-            return Ok(model.ToList());
+            return Json(model.ToList());
         }
         
         //
@@ -89,7 +90,7 @@ namespace SalaryPeeker.Controllers
         {
             var model = _context.SalaryRecords.Where(m => m.JobTitle.ToLower().Contains(title.ToLower()));
 
-            return Ok(model.ToList());
+            return Json(model.ToList());
         }
         
     }
